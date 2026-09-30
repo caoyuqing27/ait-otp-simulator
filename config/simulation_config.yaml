@@ -1,0 +1,19 @@
+simulation:
+  duration_hours: 24
+  random_seed: 42
+
+users:
+  number: 10000
+
+legitimate_traffic:
+  average_requests_per_user_per_day: 2
+
+attack:
+  type: high_volume
+  number_of_attackers: 10
+
+cost:
+  sms_cost_per_message: 0.0075
+
+defense:
+  type: none
